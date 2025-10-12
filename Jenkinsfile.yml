@@ -10,7 +10,7 @@ pipeline {
         
         stage('SCM Github') {
             steps {
-                checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/mervetuncay/devops-02-pipeline']])
+                checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/mervetuncay/devops-03-pipeline']])
              
             }
         }
